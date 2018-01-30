@@ -1,0 +1,24 @@
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:s="http://jboss.org/schema/seam/taglib"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:p="http://primefaces.org/ui"
+    xmlns:axa-project="http://ch.axatech.com/project"
+    template="templates/axa-template.xhtml">
+
+    <ui:define name="application_name">Investment Cash Portal</ui:define>
+
+    <ui:define name="content_title">Error!</ui:define>
+  	<ui:param name="showGlobalMessages" value="false"/>
+
+<axa-project:layout-3-14>
+        
+        <p>Something bad happened :-(</p>
+
+        <h:messages id="errorMessage" styleClass="message"/>
+
+</axa-project:layout-3-14>
+</ui:composition>
